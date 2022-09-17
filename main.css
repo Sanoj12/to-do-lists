@@ -1,0 +1,41 @@
+.{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:dimgrey;
+    color:whitesmoke;
+
+}
+
+header{
+    padding: 2rem  1rem;
+    max-width: 800px;
+    width: 100%;
+    margin:0 auto;
+}
+
+header h1{
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: gray;
+    margin-bottom: 1rem;
+    
+}
+
+#list-form{
+    display: flex;
+}
+
+#list-input{
+    flex: 1 1 0%;
+    background-color:darkgray;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
